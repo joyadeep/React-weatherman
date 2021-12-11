@@ -1,0 +1,84 @@
+.b-container
+{
+    color: white;
+    display: grid;
+    width: 90%;
+    text-align: center;
+    min-height: 400px;
+    margin: 0 auto 0 auto;
+    /* background-color: salmon; */
+    grid-template-columns: repeat(3,auto);
+}
+.b-center-container
+{
+    /* border: 2px solid; */
+    width: 70%;
+    height: 500px;
+    border-radius: 15px;
+    background-color: rgb(15, 163, 189);
+    margin: 50px auto 0 auto;
+    align-items: center;
+}
+.b-left
+{
+    /* border: 2px solid; */
+}
+.b-center
+{
+    /* background-color: seagreen; */
+    /* border: 2px solid; */
+}
+.city
+{
+
+    /* padding-left: 50px; */
+    /* margin-top: 60px; */
+    /* border: 1px solid; */
+    font-size: 40px;
+    /* width: 100%; */
+}
+.temp
+{
+    font-size: 60px;
+    /* border: 1px solid; */
+}
+
+.minmax, .status , .extras , .feels
+{
+    margin-top: 20px;
+    font-size: 20px;
+    /* border: 1px solid; */
+}
+.minmax
+{
+    margin-top: 0;
+}
+.wind
+{
+    /* border: 1px solid; */
+    /* align-items: center; */
+}
+.icon
+{
+    /* margin: auto 0; */
+    /* font-size: 30px; */
+    /* border: 1px solid; */
+}
+.extras
+{
+    font-size: 30px;
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+}
+.sunrise
+{
+    /* height: 20px; */
+    /* border: 1px solid; */
+}
+.b-right
+{
+    /* border: 2px solid; */
+}
