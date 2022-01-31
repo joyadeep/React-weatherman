@@ -9,8 +9,6 @@ export const Header = ({setCity}) => {
     }
     return (
         <>
-            {/* <input type="text" value={search} onChange={(e)=>{setSearch(e.target.value)}}></input>
-            <button onClick={setdata}>Search</button> */}
            <div className="header">
             <div className="h-contents">
               <div className="h-logo"> <TiWeatherSnow/> </div>

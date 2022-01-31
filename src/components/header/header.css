@@ -18,14 +18,11 @@
 }
 .h-logo
 {
-/* border: 1px solid; */
-
 font-size: 50px;
 margin-left: 10px;
 }
 .h-title
 {
-    /* border: 1px solid; */
     text-align: center;
     font-size: 40px;
     height: 100%;
@@ -33,33 +30,26 @@ margin-left: 10px;
 .h-search
 {
     height: 90%;
-    /* border: 1px solid; */
     display: grid;
     align-items: center;
     grid-template-columns: 70% 30%;
 
 }
-.h-bar
-{
-    /* border: 2px solid; */
-}
 .h-icon
 {
     margin-left: 10px;
-    /* border: 2px solid; */
 }
 .h-bar input
 {
-    /* border: 2px solid; */
     width: 95%;
     border-radius: 5px;
     border: transparent;
+    outline: none;
     height: 35px;
     font-size: 20px;
     padding-left: 6px;
 }
 .h-icon button{
-    /* margin-right: 10px; */
     cursor: pointer;
     color: white;
     background-color: rgb(22, 13, 1);

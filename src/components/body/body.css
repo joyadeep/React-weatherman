@@ -2,7 +2,8 @@
 {
     color: white;
     display: grid;
-    width: 90%;
+    width: 100%;
+    /* border: 1px solid; */
     text-align: center;
     min-height: 400px;
     margin: 0 auto 0 auto;
@@ -19,15 +20,7 @@
     margin: 50px auto 0 auto;
     align-items: center;
 }
-.b-left
-{
-    /* border: 2px solid; */
-}
-.b-center
-{
-    /* background-color: seagreen; */
-    /* border: 2px solid; */
-}
+
 .city
 {
 
@@ -53,17 +46,7 @@
 {
     margin-top: 0;
 }
-.wind
-{
-    /* border: 1px solid; */
-    /* align-items: center; */
-}
-.icon
-{
-    /* margin: auto 0; */
-    /* font-size: 30px; */
-    /* border: 1px solid; */
-}
+
 .extras
 {
     font-size: 30px;
@@ -73,12 +56,12 @@
     grid-template-columns: auto auto;
     grid-row-gap: 30px;
 }
-.sunrise
+
+.loading
 {
-    /* height: 20px; */
-    /* border: 1px solid; */
-}
-.b-right
-{
-    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 50px;
 }
