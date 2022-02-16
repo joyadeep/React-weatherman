@@ -42,8 +42,8 @@ export const Body = () => {
                 <div className="extras">
                     <div className="wind"><span className="icon"> <GiWindsock/> </span> {tempData.wind.speed} <sub style={{fontSize:"15px"}}> km/hr</sub> </div>
                     <div className="humidity"> <span className="icon"><WiHumidity/></span> {tempData.main.humidity} </div>
-                    <div className="sunrise"><span className="icon"><WiSunrise/></span> {new Date(tempData.sys.sunrise).toLocaleTimeString()}</div>
-                    <div className="sunset"><WiSunset/>  {new Date(tempData.sys.sunset).toLocaleTimeString()}</div>
+                    {/* <div className="sunrise"><span className="icon"><WiSunrise/></span> {new Date(tempData.sys.sunrise).toLocaleTimeString()}</div>
+                    <div className="sunset"><WiSunset/>  {new Date(tempData.sys.sunset).toLocaleTimeString()}</div> */}
 
                 </div>
                 
